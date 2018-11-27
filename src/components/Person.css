@@ -1,0 +1,24 @@
+.Person{
+    width: 60%;
+    margin:auto;
+    border:1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding:16px;
+    text-align: center;
+    margin-bottom:50px;
+}
+.Person>input{
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius:5px;
+    text-align:center;
+    padding:10px;
+}
+.Person>input:focus{
+    outline:none;
+}
+.Person>input::selection{
+    background: #ccc;
+    padding:4px;
+}
